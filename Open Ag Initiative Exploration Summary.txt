@@ -1,0 +1,72 @@
+Open Ag Initiative (Personal Food Computer)
+GitHub Repositories
+45 Separate Repositories, listed below
+openag_python
+openag_brain
+This repository hold code that runs on the main computing board of an OpenAg food computer (usually a Raspberry Pi). It runs on top on ROS and uses CouchDB for data storage.
+openag_brain_install_rpi
+openag_sim
+eagle_library
+openag_ui
+openag_cv
+openag_mhz16
+openag_pwm_actuator
+openag_bh1750
+openag_mhz19
+openag_gc0012
+openag_atlas_ph
+openag_atlas_orp
+openag_atlas_ec
+openag_atlas_do
+openag_am2315
+openag_ds18b20
+openag_dht22
+openag_atlas_rgb
+OneWire
+rfcs
+openag_selfcalibration
+openag_brain_docker_rpi
+gro-hardware
+openag_firmware_module
+openag_ios
+openag_binary_actuator
+spectrum_demo
+openag_brain-release
+openag_firmware_examples
+FoamFarmActivity
+gro-api
+openag_cloud
+openag_software_pwm_actuator
+rosserial_arduino_libs
+openag_power_pcb
+openag-pymata-aio
+Forked from MrYsLab/pymata-aio
+openag-moin
+gro-controller
+liquid-level-sensor
+gro-PCB
+gro-microcontroller
+gro-ui
+
+Top languages used:
+ C++  Python  Shell  Arduino Eagle, but also relies on html, json, python and others
+“Inside of a Food Computer, climate variables such as carbon dioxide, air temperature, humidity, dissolved oxygen, potential hydrogen, electrical conductivity, root-zone temperature, and more can be controlled and monitored. “  http://openag.media.mit.edu/climate-recipes/ “
+It continues “Usage specifications such as operational energy, water use, and mineral consumption can also be monitored and adjusted through electrical meters, flow sensors, and controllable chemical dosers throughout the growth period.”  
+Concepts of scale:
+Food Computer (personal), Food Server (restaurant size), Food Data Center (commercial growing operation); city-wide producers as a “digital farm”
+Common lighting is the combination of red, blue and green LED lights, which are visually observed as pink.
+Controlled-environment agriculture (CEA) https://en.wikipedia.org/wiki/Controlled-environment_agriculture 
+Controllable variables:
+•	Temperature (air, nutrient solution, root-zone)
+•	Humidity (%RH)
+•	Carbon dioxide (CO2)
+•	Light (intensity, spectrum, interval)
+•	Nutrient concentration (PPM, EC)
+•	Nutrient pH (acidity)
+
+The Brain includes:
+Raspberry Pi Installation Instructions
+https://github.com/OpenAgInitiative/openag_brain_docker_rpi 
+https://github.com/OpenAgInitiative/openag_brain_docker_rpi/blob/master/README.md 
+“Fixtures” has firmware and software coding for red, blue, and white light controllers, pumps, heaters, coolers, pH meters, CO2 sensors, humidity sensor, air temperature sensor
+
